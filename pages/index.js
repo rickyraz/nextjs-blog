@@ -5,7 +5,7 @@ import styles from "../styles/Home.module.css";
 import Date from "../components/date";
 
 import { getSortedPostsData } from "../lib/posts";
-import Layout, { siteTitle } from "../components/layout.js";
+import Layout, { siteTitle } from "../components/Layout.js";
 import utilStyles from "../styles/utils.module.css";
 
 export default function Home({ allPostsData }) {
